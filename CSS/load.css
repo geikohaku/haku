@@ -1,0 +1,117 @@
+
+
+.loading {
+  position: relative;
+  width: 100vmax;
+  height: 30vmax;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 10vmax;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+}
+
+
+.loadhaku1{
+	position: absolute;
+	font-size:  1.6em;
+	color: white;
+	animation: move1  1.7s ease-out forwards;
+	top: 8%;
+	left: 64%;
+}
+
+.loadhaku2{
+	position: absolute;
+	font-size:  0.3em;
+	color: white;
+	animation: move2  1.7s ease-out forwards;
+	left: 74%;
+	background-color: black;
+}
+
+hr{
+	width: 100vw;
+	background-color: white;
+	height: 1%;
+	border: 0;  
+	animation: move3  1.7s ease-out forwards;
+}
+
+@keyframes move1{
+	0%{
+		opacity: 0;
+	}
+	10%{
+		opacity: 1;
+	}
+	100%{
+		transform: translate(-50%);
+	}
+}
+
+@keyframes move2{
+	0%{
+		opacity: 0;
+	}
+	50%{
+		opacity: 0;
+	}
+	86%{
+		opacity: 1;
+	}
+	100%{
+	}
+}
+
+@keyframes move3{
+	0%{
+		width: 20%;
+	} 
+	100%{
+		width: 100vw;
+	}
+}
+
+
+
+
+@media(max-width: 560px) {
+	  .loading{
+	  	left: 32%;
+	  }
+	  hr{
+	  	left: 50%;
+
+	  }
+    
+}
+
+
+/*
+header  {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  transition: .3s;
+  background-color: rgba(255,255,255,0);
+  height: 200px;
+}
+
+.is-fixed  {
+  position:  fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  background-color: rgba(255,255,255,0.9);
+  -webkit-transition: all .4s ease 0s,background .6s ease .2s;
+  transition: all .4s ease 0s,background .6s ease .2s;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  height: 100px;
+}
