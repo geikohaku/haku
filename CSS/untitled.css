@@ -1,0 +1,33 @@
+
+@font-face {
+  font-family: 'Cochin';
+  src:url('../fonts/Cochin.ttc');
+}
+@font-face {
+  font-family: 'kokumr';
+  src:url('../fonts/font_1_kokumr_1.00rls.ttf');
+}
+
+html,body,main{
+    margin: 0 auto;
+    padding: 0;
+    width: 90vw;
+    background-color: #fff;
+    font-family: 'Cochin','kokumr',serif;
+    font-size: 100%;
+}*{
+    box-sizing:border-box;
+  }
+
+
+.link{
+    width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    position: relative;
+}
+
+
+.link img{
+    width: 100%;
+}
