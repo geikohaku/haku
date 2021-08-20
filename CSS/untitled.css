@@ -31,3 +31,11 @@ html,body,main{
 .link img{
     width: 100%;
 }
+
+.zoom-in-img {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.zoom-in-img:hover{
+  transform: scale(0.8);
+}
