@@ -3,9 +3,7 @@ ul{
     padding: 0;
 }
 
-
 /*
-
 .menu{
     background-color: white;
     width: 90vw;
@@ -37,24 +35,9 @@ li a:hover{
 
 */
 
-
-@media(max-width: 600px) {
-    .menu {
-        display: none;
-    }
-}
-@media(min-width: 600px) {
-    #hamburger .btn-gNav{
-        display: none;
-    }
-    
-}
-
 .icon{
     height: 6vw;
 }
-
-
 
 #hamburger .btn-gNav{
   position: fixed;
@@ -136,6 +119,12 @@ li a:hover{
 }
 
 
+@media(max-width: 600px) {
+    .menu {
+        display: none;
+    }
+}
+
 @media screen and (min-width: 600px){
   .btn-gNav{
     display: none;
@@ -150,7 +139,7 @@ li a:hover{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 100%;
+    height: 10%;
     position: fixed;
     top: 0;
     right: 0;
