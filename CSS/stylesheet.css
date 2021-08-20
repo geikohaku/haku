@@ -132,6 +132,11 @@ P{
     height: auto;
     position: relative;
     justify-content: center;
+  　　　　transition: .3s ease-in-out;
+}
+
+.gomember img:hover{
+    filter: grayscale(100%);
 }
 
 .gomember p{
