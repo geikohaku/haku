@@ -38,16 +38,17 @@ html,body,main{
     text-align: center;
     margin-bottom: 10vh;
     /*min-height: 100vh;*/
+    font-size: 3vmax;
 }
 
 
 h1{
     color: gray;
-    font-size: 3vw;
+    font-size: 1em;
     margin-bottom: 10vh;
 }
-P{
-    font-size: 2vw;
+p{
+    font-size: 0.6em;
     margin: 30px;
 }
 
