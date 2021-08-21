@@ -24,13 +24,13 @@ html,body,main{
   width: 100%;
   margin-top: 10vh;
   margin-bottom: 10vh;
-  position: relative;
   font-size: 2vmax;
 }
 
 
 .link img{
-    width: 100%;
+   width: 100%;
+   margin-bottom: 20px;
 }
 
 .zoom-in-img {
