@@ -21,10 +21,11 @@ html,body,main{
 
 
 .link{
-    width: 100%;
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-    position: relative;
+  width: 100%;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  position: relative;
+  font-size: 2vmax;
 }
 
 
