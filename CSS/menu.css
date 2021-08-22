@@ -91,6 +91,9 @@ ul{
     .menu {
         display: none;
     }
+    .icon{
+        height: 8vh;
+   }
 }
 
 @media screen and (min-width: 600px){
