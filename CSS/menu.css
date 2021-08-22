@@ -101,13 +101,13 @@ ul{
     position: fixed;
     top: 0;
     right: 0;
-    height: 10%;
+    height: 8%;
   }
   #gNav .gNav-menu{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 10%;
+    height: 8%;
     position: fixed;
     top: 0;
     right: 0;
