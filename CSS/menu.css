@@ -3,11 +3,9 @@ ul{
     padding: 0;
 }
 
-
 .icon{
-    height: 6vw;
+    height: 100%;
 }
-
 
 #hamburger .btn-gNav{
   position: fixed;
