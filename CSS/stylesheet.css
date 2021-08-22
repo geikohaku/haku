@@ -33,6 +33,14 @@ html,body,main{
     position: absolute;
 }
 
+.pc { display: block !important; }
+.sp { display: none !important; }
+
+@media (max-width: 600px) {
+    .pc { display: none !important; }
+    .sp { display: block !important; }
+}
+
 
 .about{
     text-align: center;
