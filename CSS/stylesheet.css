@@ -100,17 +100,11 @@ p{
   margin: 0;
 }
 
-/*
-.gowork li :before {
-  content: "";
-  display: block;
-  padding-top: 90%; 
+.title{
+    font-size: 2em;
 }
-*/
-
-
-.member{
-    
+.text{
+    font-size: 1em;
 }
 
 .gomember{
